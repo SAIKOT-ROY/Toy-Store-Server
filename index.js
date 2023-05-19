@@ -30,9 +30,40 @@ async function run() {
     await client.connect();
 
     const toysCollection = client.db('toysMarket').collection('items')
+    const figCollection = client.db('toysMarket').collection('toys')
 
     app.get('/items', async(req, res) => {
         const cursor = toysCollection.find();
+        const result = await cursor.toArray();
+        res.send(result)
+    })
+
+    app.post('/toys', async(req, res) => {
+        const myToys = req.body;
+        console.log(myToys);
+        const result = await figCollection.insertOne(myToys);
+        res.send(result)
+    })
+
+    // only category api 
+
+    app.get('/anime', async(req, res) => {
+        const query = {category: "Anime"}
+        const cursor = toysCollection.find(query)
+        const result = await cursor.toArray();
+        res.send(result)
+    })
+
+    app.get('/dc', async(req, res) => {
+        const query = {category: "DC"}
+        const cursor = toysCollection.find(query)
+        const result = await cursor.toArray();
+        res.send(result)
+    })
+
+    app.get('/marvel', async(req, res) => {
+        const query = {category: "Marvel"}
+        const cursor = toysCollection.find(query)
         const result = await cursor.toArray();
         res.send(result)
     })
