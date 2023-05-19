@@ -45,6 +45,16 @@ async function run() {
         res.send(result)
     })
 
+    app.get('/toys', async(req, res) => {
+        let query = {}
+        if(req.query?.email){
+            query = {email: req.query.email}
+        }
+        const cursor = figCollection.find(query);
+        const result = await cursor.toArray();
+        res.send(result)
+    })
+
     // only category api 
 
     app.get('/anime', async(req, res) => {
