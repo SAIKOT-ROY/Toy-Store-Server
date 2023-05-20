@@ -58,6 +58,31 @@ async function run() {
         res.send({result})
     })
 
+    app.get('/item/:id', async(req, res) => {
+        const id = req.params.id;
+        const query = { _id: new ObjectId(id)}
+        const result = await toysCollection.findOne(query);
+        res.send(result)
+    })
+
+    app.patch('/items/:id', async(req, res) => {     
+
+        const id = req.params.id;
+        const filter = {_id: new ObjectId(id)}
+        const updateToys = req.body;
+        console.log(updateToys)
+        const updateDoc = {
+              $set: {
+                price: updateToys.price,
+                quantity: updateToys.quantity,
+                description: updateToys.description
+              }
+        }
+        const result = await toysCollection.updateOne(filter, updateDoc)
+        res.send(result)
+    })
+
+
     app.get('/toys', async(req, res) => {
         let query = {}
         if(req.query?.email){
