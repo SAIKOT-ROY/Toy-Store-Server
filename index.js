@@ -27,10 +27,29 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
 
     const toysCollection = client.db('toysMarket').collection('items')
     const figCollection = client.db('toysMarket').collection('toys')
+
+
+    const indexKeys = { name: 1} 
+    const indexOptions = { toysName: "name"}
+
+    const result = await toysCollection.createIndex(indexKeys, indexOptions)
+
+    app.get("/toysSearch/:text", async (req, res) => {
+        const searchText = req.params.text;
+
+        const result = await toysCollection.find({
+              $or: [{ name: { $regex: searchText, $options: "i"}}]
+        })
+        .toArray();
+
+        res.send(result)
+    })
+
+
 
     app.get('/items', async(req, res) => {
         let query = {}

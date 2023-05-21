@@ -8,7 +8,8 @@
     "rating": 4.7,
     "description": "Iron Man, also known as Tony Stark, is a genius billionaire and a founding member of the Avengers. He utilizes his intellect and advanced powered armor suit to fight against threats to humanity.",
     "seller": "Marvel Store",
-    "img":"https://i.ibb.co/KwvJ1yp/ironman.jpg"
+    "img":"https://i.ibb.co/KwvJ1yp/ironman.jpg",
+    "price": 63
   },
   {
     "name": "Spider-Man",
@@ -19,7 +20,8 @@
     "rating": 4.9,
     "description": "Spider-Man, or Peter Parker, is a young superhero with extraordinary abilities. He gained his powers after being bitten by a radioactive spider and uses his agility, strength, and spider-sense to protect New York City.",
     "seller": "Marvel Store",
-    "img":"https://i.ibb.co/L04ynt7/spiderman.jpg"
+    "img":"https://i.ibb.co/L04ynt7/spiderman.jpg",
+    "price": 35
   },
   {
     "name": "Captain America",
@@ -30,7 +32,8 @@
     "rating": 4.8,
     "description": "Captain America, also known as Steve Rogers, is a super-soldier and the embodiment of patriotism. He possesses enhanced strength, agility, and an indestructible shield, leading the Avengers with honor and courage.",
     "seller": "Marvel Store",
-    "img": "https://i.ibb.co/58Q36VZ/captain.jpg"
+    "img": "https://i.ibb.co/58Q36VZ/captain.jpg",
+    "price": 70
   },
   {
     "name": "Thor",
@@ -41,7 +44,8 @@
     "rating": 4.9,
     "description": "Thor Odinson, the God of Thunder, wields the enchanted hammer Mjolnir and possesses godly strength and control over lightning. He defends Earth alongside the Avengers, embodying bravery and nobility.",
     "seller": "Marvel Store",
-    "img": "https://i.ibb.co/B3xM1Mt/thor.jpg"
+    "img": "https://i.ibb.co/B3xM1Mt/thor.jpg",
+    "price": 78
   },
   {
     "name": "Black Widow",
@@ -52,7 +56,8 @@
     "rating": 4.6,
     "description": "Black Widow, or Natasha Romanoff, is a highly skilled spy and master martial artist. She brings her expertise in espionage and combat to the Avengers, carrying out missions with precision and stealth.",
     "seller": "Marvel Store",
-    "img": "https://i.ibb.co/FJ2BSRH/blackwidow.jpg"
+    "img": "https://i.ibb.co/FJ2BSRH/blackwidow.jpg",
+    "price": 68
   },
   {
     "name": "Batman",
@@ -63,7 +68,8 @@
     "rating": 4.8,
     "description": "Batman, also known as Bruce Wayne, is a billionaire playboy and a vigilante crime-fighter. He uses his exceptional detective skills, martial arts prowess, and advanced gadgets to protect Gotham City from its criminal underworld.",
     "seller": "DC Store",
-    "img":"https://i.ibb.co/V9kmqJq/batman.jpg"
+    "img":"https://i.ibb.co/V9kmqJq/batman.jpg",
+    "price": 54
   },
   {
     "name": "Superman",
@@ -74,7 +80,8 @@
     "rating": 4.9,
     "description": "Superman, also known as Clark Kent, is an alien from the planet Krypton. He possesses incredible superhuman abilities, including super strength, speed, flight, and heat vision. Superman uses his powers to protect Earth from threats.",
     "seller": "DC Store",
-    "img":"https://i.ibb.co/n1PJPdR/superman.jpg"
+    "img":"https://i.ibb.co/n1PJPdR/superman.jpg",
+    "price": 45
   },
   {
     "name": "Wonder Woman",
@@ -85,7 +92,8 @@
     "rating": 4.7,
     "description": "Wonder Woman, also known as Diana Prince, is an Amazonian warrior princess. She possesses superhuman strength, agility, and magical weaponry. Wonder Woman fights for justice, peace, and gender equality.",
     "seller": "DC Store",
-    "img": "https://i.ibb.co/r4d9MWW/wonderwoman.jpg"
+    "img": "https://i.ibb.co/r4d9MWW/wonderwoman.jpg",
+    "price": 69
   },
   {
     "name": "The Flash",
@@ -96,7 +104,8 @@
     "rating": 4.6,
     "description": "The Flash, also known as Barry Allen, is the fastest man alive. He can run at superhuman speeds, phase through objects, and manipulate time. The Flash uses his powers to protect Central City and the world from various threats.",
     "seller": "DC Store",
-    "img": "https://i.ibb.co/Wy0FGnJ/flash.jpg"
+    "img": "https://i.ibb.co/Wy0FGnJ/flash.jpg",
+    "price": 89
   },
   {
     "name": "Green Lantern",
@@ -107,7 +116,8 @@
     "rating": 4.5,
     "description": "Green Lantern, also known as Hal Jordan, is a member of the intergalactic Green Lantern Corps. He wields a power ring that can create constructs with the power of his will. Green Lantern protects the universe from threats as a fearless cosmic guardian.",
     "seller": "DC Store",
-    "img": "https://i.ibb.co/syJ4rdz/greenlantren.jpg"
+    "img": "https://i.ibb.co/syJ4rdz/greenlantren.jpg",
+    "price": 78
   },
   {
     "name": "Monkey D. Luffy",
@@ -118,7 +128,8 @@
     "rating": 4.7,
     "description": "Monkey D. Luffy is the captain of the Straw Hat Pirates and the main protagonist of One Piece. He possesses the power of the Gum-Gum Fruit, giving him the ability to stretch his body like rubber. Luffy is on a quest to become the Pirate King and find the ultimate treasure, the One Piece.",
     "seller": "Anime Store",
-    "img": "https://i.ibb.co/b2177jy/luffy.jpg"
+    "img": "https://i.ibb.co/b2177jy/luffy.jpg",
+    "price": 56
   },
   {
     "name": "Naruto Uzumaki",
@@ -129,7 +140,8 @@
     "rating": 4.9,
     "description": "Naruto Uzumaki is a young ninja from the Hidden Leaf Village and the protagonist of Naruto. He possesses the power of the Nine-Tailed Fox and aims to become the strongest ninja in his village as the Hokage. Naruto is known for his determination, never-give-up attitude, and his signature move, the Rasengan.",
     "seller": "Anime Store",
-    "img": "https://i.ibb.co/vPnSYHL/naruto.jpg"
+    "img": "https://i.ibb.co/vPnSYHL/naruto.jpg",
+    "price": 90
   },
   {
     "name": "Goku",
@@ -140,7 +152,8 @@
     "rating": 4.8,
     "description": "Goku is the main protagonist of Dragon Ball series. He is a Saiyan warrior who possesses incredible strength and the ability to harness the power of the Super Saiyan. Goku fights to protect Earth from powerful villains and participates in martial arts tournaments to prove his strength.",
     "seller": "Anime Store",
-    "img": "https://i.ibb.co/Csg094B/goku.jpg"
+    "img": "https://i.ibb.co/Csg094B/goku.jpg",
+    "price": 50
   },
   {
     "name": "Saitama",
@@ -151,7 +164,8 @@
     "rating": 4.9,
     "description": "Saitama is the protagonist of One Punch Man. He is an incredibly powerful hero who can defeat any opponent with a single punch. Despite his overwhelming strength, Saitama often struggles with boredom and finding challenging opponents to test his abilities.",
     "seller": "Anime Store",
-    "img": "https://i.ibb.co/f9R1grP/one-punch.jpg"
+    "img": "https://i.ibb.co/f9R1grP/one-punch.jpg",
+    "price": 60
   },
   {
     "name": "Ichigo Kurosaki",
@@ -162,6 +176,7 @@
     "rating": 4.6,
     "description": "Ichigo Kurosaki is the main character of Bleach. He gains the powers of a Soul Reaper, allowing him to protect the living world from evil spirits and Hollows. Ichigo is determined to save his friends and protect those he cares about, even if it means challenging powerful enemies.",
     "seller": "Anime Store",
-    "img": "https://i.ibb.co/kcnxXxP/ichigo.jpg"
+    "img": "https://i.ibb.co/kcnxXxP/ichigo.jpg",
+    "price": 40
   }
 ]
